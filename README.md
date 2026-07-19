@@ -1,14 +1,28 @@
-# miss-you-main
+# 💖 Miss You - Carta Interactiva
 
-Este repositorio contiene el código del proyecto **miss-you-main**, clasificado como **Proyecto de Código Fuente**.
+Un detalle interactivo web y una carta digital personal que combina música, efectos visuales y animaciones fluidas utilizando tecnologías nativas frontend.
 
-## Tecnologías Utilizadas
+---
 
-- JavaScript / Otros
+## 🚀 Características Principales
+
+* Diseño romántico con animaciones y efectos fluidos.
+* Carga dinámica de textos interactivos (`content.js`).
+* Adaptativo y responsivo para dispositivos móviles y computadoras.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+* HTML5
+* CSS3 (Animations & Flexbox)
+* Vanilla JavaScript
+
+---
 
 ### Ejecución
 
-1. Explora el código fuente en este repositorio para comprender su funcionamiento.
+1. Abre `index.html` directamente en tu navegador, o utilízalo de forma local mediante la extensión *Live Server* en VS Code.
 
 ---
-*Generado automáticamente para la organización y catalogación de proyectos.*
+*Este repositorio ha sido configurado y catalogado automáticamente.*
