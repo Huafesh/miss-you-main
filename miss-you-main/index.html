@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Te Extraño 💕</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ff8fab'><path d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Sour+Gummy:wght@400;500;600;700;800&family=Mystery+Quest&family=Handlee&family=Matemasie&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-floats" aria-hidden="true">
+    <span class="deco d1 anim-a">🌸</span>
+    <span class="deco d2 anim-b">🌷</span>
+    <span class="deco d3 anim-c">🌼</span>
+    <span class="deco d4 anim-a">🌸</span>
+    <span class="deco d5 anim-b">💕</span>
+    <span class="deco d6 anim-c">💗</span>
+    <span class="deco d7 anim-d">✨</span>
+    <span class="deco d8 anim-a">⭐</span>
+    <span class="deco d9 anim-b">🥺</span>
+    <span class="deco d10 anim-c">🌸</span>
+    <span class="deco d11 anim-d">🌷</span>
+    <span class="deco d12 anim-a">💕</span>
+    <span class="deco d13 anim-b">🌼</span>
+    <span class="deco d14 anim-c">✨</span>
+    <span class="deco d15 anim-d">💗</span>
+    <span class="deco d16 anim-a">🌸</span>
+    <span class="deco petal p1"></span>
+    <span class="deco petal p2"></span>
+    <span class="deco petal p3"></span>
+    <span class="deco petal p4"></span>
+    <span class="deco petal p5"></span>
+    <span class="deco petal p6"></span>
+  </div>
+
+  <main class="page-content">
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="timer-wrap fade-in">
+      <span class="timer-dot" aria-hidden="true"></span>
+      <span class="timer-label">te extraño desde hace:</span>
+      <strong id="miss-timer">0h 0m</strong>
+    </div>
+    <p class="psst fade-in delay-1">psst...</p>
+    <h1 class="hero-title fade-in delay-2">te extraño</h1>
+    <p class="hero-sub fade-in delay-3">muchísimo.</p>
+    <div class="gif-wrap gif-hero fade-in delay-3" data-gif="hero">
+      <div class="gif-fallback">🥺</div>
+    </div>
+    <p class="hero-drama fade-in delay-4">
+      y no de una forma linda.<br />
+      de la forma dramática de tirarse-al-suelo.
+    </p>
+    <div class="scroll-hint fade-in delay-5">
+      <span>baja para ver pruebas</span>
+      <span class="arrow">↓</span>
+    </div>
+  </section>
+
+  <!-- Miss-o-meter -->
+  <section class="section meter-section" id="meter">
+    <p class="section-tag">okey pero o sea ~</p>
+    <h2>¿cuánto, exactamente?</h2>
+    <div class="meter-card reveal">
+      <p class="meter-card-intro">aquí están las lecturas oficiales del extrañómetro:</p>
+      <div class="meter-track">
+        <div class="meter-bar-segments" id="meter-bar"></div>
+        <span class="meter-pin-end" aria-hidden="true">📍</span>
+      </div>
+      <div class="meter-labels">
+        <span>bien</span>
+        <span>un poco</span>
+        <span>uh oh</span>
+        <span>yikes</span>
+        <span class="label-send-help">ayuda</span>
+      </div>
+      <div class="meter-footer">
+        <div class="gif-wrap gif-meter" data-gif="meter-bear"></div>
+        <div class="meter-note-wrap">
+          <p class="meter-bad">sí, <strong>así de mal.</strong></p>
+          <p class="meter-note">probablemente peor si soy honesto(a).</p>
+        </div>
+      </div>
+    </div>
+    <p class="divider">✦ ✿ ✦</p>
+  </section>
+
+  <!-- Things I miss -->
+  <section class="section things-section" id="things">
+    <p class="section-tag">reporte oficial ~</p>
+    <h2>cosas que extraño ahorita</h2>
+    <p class="section-sub">(sin ningún orden en particular. todo es importante.)</p>
+    <p class="tap-hint">toca una si haces estas cosas ♡</p>
+
+    <div class="things-grid" id="things-grid">
+      <button class="thing-card reveal" type="button" data-color="cream">
+        <span class="thing-tape tape-yellow" aria-hidden="true"></span>
+        <span class="same-badge" aria-hidden="true"><span class="same-check">✓</span> yo igual</span>
+        <div class="thing-gif-wrap" data-gif="thing-1"></div>
+        <p class="thing-text">tu <strong>risa tonta</strong> de cosas que ni dan risa</p>
+      </button>
+      <button class="thing-card reveal" type="button" data-color="pink">
+        <span class="thing-tape tape-pink" aria-hidden="true"></span>
+        <span class="same-badge" aria-hidden="true"><span class="same-check">✓</span> yo igual</span>
+        <div class="thing-gif-wrap" data-gif="thing-2"></div>
+        <p class="thing-text">tú robándome mis <strong>sudaderas</strong> como si no fuera un delito</p>
+      </button>
+      <button class="thing-card reveal" type="button" data-color="lavender">
+        <span class="thing-tape tape-lavender" aria-hidden="true"></span>
+        <span class="same-badge" aria-hidden="true"><span class="same-check">✓</span> yo igual</span>
+        <div class="thing-gif-wrap" data-gif="thing-3"></div>
+        <p class="thing-text">la forma en que dices <strong>"¿hmm?"</strong> a literalmente todo lo que digo</p>
+      </button>
+      <button class="thing-card reveal" type="button" data-color="mint">
+        <span class="thing-tape tape-green" aria-hidden="true"></span>
+        <span class="same-badge" aria-hidden="true"><span class="same-check">✓</span> yo igual</span>
+        <div class="thing-gif-wrap" data-gif="thing-4"></div>
+        <p class="thing-text">los <strong>mensajes a las 3am</strong> de la nada diciendo "qué onda, estás despierto(a)?"</p>
+      </button>
+      <button class="thing-card reveal" type="button" data-color="blush">
+        <span class="thing-tape tape-pink" aria-hidden="true"></span>
+        <span class="same-badge" aria-hidden="true"><span class="same-check">✓</span> yo igual</span>
+        <div class="thing-gif-wrap" data-gif="thing-5"></div>
+        <p class="thing-text">ser <strong>molesto(a) a propósito</strong>. especialmente eso.</p>
+      </button>
+      <button class="thing-card reveal" type="button" data-color="peach">
+        <span class="thing-tape tape-orange" aria-hidden="true"></span>
+        <span class="same-badge" aria-hidden="true"><span class="same-check">✓</span> yo igual</span>
+        <div class="thing-gif-wrap" data-gif="thing-6"></div>
+        <p class="thing-text"><strong>nosotros sin hacer nada</strong> juntos. extrañamente lo mejor</p>
+      </button>
+    </div>
+  </section>
+
+  <!-- Photos -->
+  <section class="section pics-section" id="pics">
+    <p class="section-tag">atrapados en el acto ~</p>
+    <h2>viendo nuestras fotos de nuevo</h2>
+    <p class="section-sub">(hora 3. demándame.)</p>
+
+    <div class="pics-grid">
+      <div class="pic-card reveal" data-img="1" style="--tilt: -4deg">
+        <span class="pic-tape tape-stripe-pink" aria-hidden="true"></span>
+        <div class="pic-photo">
+          <div class="pic-placeholder" style="--hue: 340"><span>nuestro momento</span></div>
+        </div>
+        <p class="pic-caption">— mira nuestras caras tontas 🥹</p>
+      </div>
+      <div class="pic-card reveal" data-img="2" style="--tilt: 3deg">
+        <span class="pic-tape tape-stripe-lavender" aria-hidden="true"></span>
+        <div class="pic-photo">
+          <div class="pic-placeholder" style="--hue: 20"><span>nuestro momento</span></div>
+        </div>
+        <p class="pic-caption">— ese buen día ☀️</p>
+      </div>
+      <div class="pic-card reveal" data-img="3" style="--tilt: -2deg">
+        <span class="pic-tape tape-stripe-orange" aria-hidden="true"></span>
+        <div class="pic-photo">
+          <div class="pic-placeholder" style="--hue: 280"><span>nuestro momento</span></div>
+        </div>
+        <p class="pic-caption">— el atardecer que ni fue tan lindo pero igual 🥲</p>
+      </div>
+      <div class="pic-card reveal" data-img="4" style="--tilt: 4deg">
+        <span class="pic-tape tape-stripe-lavender" aria-hidden="true"></span>
+        <div class="pic-photo">
+          <div class="pic-placeholder" style="--hue: 50"><span>nuestro momento</span></div>
+        </div>
+        <p class="pic-caption">— tú riendo. 10/10 ★</p>
+      </div>
+      <div class="pic-card reveal" data-img="5" style="--tilt: -3deg">
+        <span class="pic-tape tape-solid-pink" aria-hidden="true"></span>
+        <div class="pic-photo">
+          <div class="pic-placeholder" style="--hue: 310"><span>nuestro momento</span></div>
+        </div>
+        <p class="pic-caption">— mi humano favorito 💌</p>
+      </div>
+      <div class="pic-card reveal" data-img="6" style="--tilt: 2deg">
+        <span class="pic-tape tape-stripe-yellow" aria-hidden="true"></span>
+        <div class="pic-photo">
+          <div class="pic-placeholder" style="--hue: 10"><span>nuestro momento</span></div>
+        </div>
+        <p class="pic-caption">— ok, ya paro. una más. la última.</p>
+      </div>
+    </div>
+    <p class="pics-footer reveal">...okey tal vez no sea la última. 📸</p>
+  </section>
+
+  <!-- Intrusive thought -->
+  <section class="section thought-section" id="thought">
+    <div class="thought-row reveal">
+      <div class="thought-sticky">
+        <span class="thought-tape" aria-hidden="true"></span>
+        <p class="thought-label">— pensamiento intrusivo del día —</p>
+        <p class="thought-line1">"qué tal si solo...</p>
+        <h3 class="thought-quote">aparezco en tu casa ahorita"</h3>
+        <p class="thought-note">ya sé. no lo haré.<br /><span>pero lo estoy pensando.</span></p>
+      </div>
+      <div class="gif-wrap gif-thought" data-gif="thought"></div>
+    </div>
+    <p class="thought-secret">— queda entre nosotros, ¿ok? —</p>
+  </section>
+
+  <!-- Letter -->
+  <section class="section letter-section" id="letter">
+    <div class="letter-card reveal">
+      <p>estaba intentando ser normal hoy.</p>
+      <p class="spoiler">spoiler: no lo fui.</p>
+      <p>revisé mi celular como <strong>84 veces</strong>.<br />
+        cada vez fue muy emocional. cada vez no eras tú.</p>
+      <p>le sonreí a la pared pensando en ti y ahora<br />
+        creo que la pared también tiene sentimientos.</p>
+      <p class="letter-end">en fin, esto es tu culpa. hazlo de nuevo.</p>
+      <p class="letter-sign">— yo 💌</p>
+    </div>
+    <div class="gif-wrap gif-kiss" data-gif="kiss">
+      <div class="gif-fallback">💋</div>
+    </div>
+  </section>
+
+  <!-- Finale -->
+  <section class="section finale" id="finale">
+    <p class="almost">eso es todo... casi.</p>
+    <div class="gif-wrap gif-waiting" data-gif="waiting"></div>
+    <h2 class="finale-title">estaré esperando<br />tu mensaje</h2>
+    <p class="finale-line">sin presión. un "hola" es suficiente.</p>
+    <p class="finale-line">aunque un "yo también te extraño" funciona aún mejor.<br />solo digo.</p>
+    <p class="finale-sign">— tu dramática persona que te extraña 💌</p>
+    <button class="hi-btn" id="hi-btn" type="button">di hola ♡</button>
+    <div class="hearts-burst" id="hearts-burst" aria-hidden="true"></div>
+  </section>
+
+  <footer class="footer">
+    <p>hecho con amor, solo para ti 💕</p>
+  </footer>
+  </main>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
